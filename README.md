@@ -82,8 +82,8 @@ Telo Technology Limited – [@Website](https://telotechnology.com)
 
 [swift-image]: https://img.shields.io/badge/swift-5.0-red.svg
 [swift-url]: https://swift.org/
-[bitrise-image]: https://app.bitrise.io/app/568f8ac0a61af5ec/status.svg?token=nPVne2W827u-Dz3IxZ3m_A&branch=master
-[bitrise-url]: https://app.bitrise.io/app/568f8ac0a61af5ec
+[bitrise-image]: https://app.bitrise.io/app/f6cbac88d707c135/status.svg?token=FRIqXj0VP_wyUBLoxvk1NA&branch=maste
+[bitrise-url]: https://app.bitrise.io/app/f6cbac88d707c135
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: LICENSE
 [cocoapods-image]:https://img.shields.io/badge/pod-1.8.3-blueviolet.svg
