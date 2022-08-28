@@ -31,7 +31,7 @@ You can use [CocoaPods](http://cocoapods.org/) to install `CarouselButtons` by a
 ```ruby
 platform :ios, '15.0'
 use_frameworks!
-pod 'CarouselButtons', :git => 'https://github.com/TeloTechnology/CarouselButtons.git', :tag => '1.0.0'
+pod 'CarouselButtons', :git => 'https://github.com/TeloTechnology/CarouselButtons.git', :tag => '1.0.2'
 ```
 
 #### Import after installation
