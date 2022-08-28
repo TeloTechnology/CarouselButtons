@@ -1,20 +1,20 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "CarouselButtons"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "A CocoaPods library written in Swift."
 
   spec.description  = <<-DESC
   This CarouselButtons library helps you to have a carousel of buttons.
                      DESC
   
-  spec.homepage     = "http://telotechnology.com"
+  spec.homepage     = "https://telotechnology.com"
  
   spec.license      = "MIT"
   spec.author             = { "Rudi Luis" => "rudi.luis@telotechnology.com" }
   spec.social_media_url   = "https://www.instagram.com/telotechnology/"
 
-  spec.ios.deployment_target = "11.0"
+  spec.ios.deployment_target = "15.0"
   spec.swift_version = "5"
 
   spec.source       = { :git => "https://github.com/TeloTechnology/CarouselButtons.git", :tag => "#{spec.version}" }
