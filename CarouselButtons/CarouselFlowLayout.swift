@@ -42,14 +42,14 @@ internal final class CarouselFlowLayout: UICollectionViewFlowLayout {
     internal override func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
         let attributes = super.layoutAttributesForElements(in: rect)
         
-        attributes?.forEach {
+        attributes?.forEach({
             $0.frame = CGRect(
                 x: $0.frame.minX,
                 y: 0,
                 width: $0.frame.width,
                 height: $0.frame.height
             )
-        }
+        })
         
         return attributes
     }
