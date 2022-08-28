@@ -1,4 +1,5 @@
 # CarouselButtons
+
 > This library gives you a carousel of buttons to be used in your projects.
 
 [![Swift Version][swift-image]][swift-url]
@@ -8,7 +9,7 @@
 
 This CarouselButtons library helps you to have a carousel of buttons.
 
-<kbd><img src="Images/example1.png" width="200">  <img src="Images/example2.png" width="200"></kbd>
+<kbd><img src="Images/example1.png" width="200"> <img src="Images/example2.png" width="200"></kbd>
 
 ## Features
 
@@ -18,35 +19,40 @@ This CarouselButtons library helps you to have a carousel of buttons.
 
 ## Requirements
 
-- iOS 11.0+
-- Xcode 11.0+
+- Xcode 12.x
+- Swift 5.x
 
 ## Installation
 
 #### CocoaPods
+
 You can use [CocoaPods](http://cocoapods.org/) to install `CarouselButtons` by adding it to your `Podfile`:
 
 ```ruby
-platform :ios, '11.0'
+platform :ios, '15.0'
 use_frameworks!
-pod 'CarouselButtons'
+pod 'CarouselButtons' :git => 'https://github.com/TeloTechnology/CarouselButtons.git', :tag => '1.0.0'
 ```
 
 #### Import after installation
+
 To get the full benefits import `CarouselButtons`.
 
-``` swift
+```swift
 import CarouselButtons
 ```
+
 #### Manually
-1. Download and drop ```CarouselButtons``` folder in your project.  
-2. Congratulations!  
+
+1. Download and drop `CarouselButtons` folder in your project.
+2. Congratulations!
 
 ## Usage example
 
 1. Set the height to 126px via code or GUI.
 
 2. Add the code below.
+
 ```swift
 
 @IBOutlet
@@ -60,7 +66,7 @@ let data = [
 ]
 
 carouselCollectionButton.add(data)
-        
+
 carouselCollectionButton.didSelectButton = { position in
     print("Did select at: \(position) with title: \(data[position].title")
 }
@@ -86,4 +92,4 @@ Telo Technology Limited – [@Website](https://telotechnology.com)
 [bitrise-url]: https://app.bitrise.io/app/f6cbac88d707c135
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: LICENSE
-[cocoapods-image]:https://img.shields.io/badge/pod-1.8.3-blueviolet.svg
+[cocoapods-image]: https://img.shields.io/badge/pod-1.8.3-blueviolet.svg
